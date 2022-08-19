@@ -1,0 +1,199 @@
+// .modal-close {
+//     position: absolute;
+//     top: 8px;
+//     right: 8px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     width: 30px;
+//     height: 30px;
+//     padding: 0;
+
+//     background: #FFFFFF;
+//     border: 1px solid rgba(0, 0, 0, 0.1);
+//     border-radius: 50%;
+// }
+
+// .modal-close-icon {
+
+//     fill: #000000;
+//     transition: fill var(--transition-dur-func);
+
+//     &:hover,
+//     &:focus {
+    
+//         fill: var(--accent-color)
+//     }
+
+// }
+
+// .modal {
+//     position: absolute;
+//     width: 528px;
+//     height: 581px;
+//     padding: 40px;
+//     left: 50%;
+//     top: 50%;
+//     transform: translate(-50%, -50%) scale(1);
+
+//     background: #FFFFFF;
+//     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+//     border-radius: 4px;
+
+//     transition: transform var(--transition-dur-func), opacity var(--transition-dur-func);
+
+//     .backdrop.is-hidden & {
+//         transform: translate(-50%, -50%) scale(0.5);
+//         opacity: 0;
+//     }
+// }
+
+// .modal-title {
+//     display: block;
+//     margin-bottom: 12px;
+//     font-weight: 700;
+//     font-size: 20px;
+//     line-height: 1.15;
+//     text-align: center;
+//     letter-spacing: 0.03em;
+
+//     color: #212121;
+// }
+
+// .modal-form {
+//     display: flex;
+//     flex-direction: column;
+// }
+
+// .modal-form-label {
+//     margin-bottom: 10px;
+// }
+
+// .modal-form-input {
+//     width: 100%;
+//     height: 40px;
+//     padding-left: 42px;
+
+//     border: 1px solid rgba(33, 33, 33, 0.2);
+//     border-radius: 4px;
+
+//     transition: border-color var(--transition-dur-func);
+
+//     &:focus {
+//         outline: none;
+//         border-color: var(--accent-color);
+//     }
+// }
+
+// .modal-form-field {
+//     display: block;
+//     position: relative;
+// }
+
+// .modal-field-icon {
+//     position: absolute;
+//     left: 12px;
+//     top: 50%;
+//     transform: translateY(-50%);
+
+//     transition: fill var(--transition-dur-func);
+
+//     .modal-form-input:focus + & {
+//         fill: var(--accent-color);
+//     }
+// }
+
+// .modal-form-desc {
+//     display: block;
+//     margin-bottom: 4px;
+
+//     font-size: 12px;
+//     line-height: 1.17;
+//     letter-spacing: 0.01em;
+
+//     color: #757575;
+// }
+
+// .modal-form-message {
+//     resize: none;
+//     width: 100%;
+//     height: 120px;
+//     padding-top: 12px;
+//     padding-bottom: 12px;
+//     padding-left: 16px;
+//     padding-right: 16px;
+
+//     border: 1px solid rgba(33, 33, 33, 0.2);
+//     border-radius: 4px;
+
+//     transition: border-color var(--transition-dur-func);
+
+//     &:focus {
+//         outline: none;
+//         border-color: var(--accent-color)
+//     }
+
+//     &::placeholder {
+//         font-size: 12px;
+//         line-height: 1.17;
+//         letter-spacing: 0.01em;
+
+//         color: rgba(117, 117, 117, 0.5);
+//     }
+// }
+
+// .policy-field {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 8px;
+//     margin-bottom: 32px;
+// }
+
+// .policy-label {
+
+//     font-size: 14px;
+//     line-height: 1.71;
+//     letter-spacing: 0.03em;
+
+//     color: #757575;
+// }
+
+// .policy-link {
+//     color: var(--accent-color);
+// }
+
+// .policy-icon {
+//     transition: fill var(--transition-dur-func), backround-image var(--transition-dur-func);
+
+//     .modal-form-checkbox:checked ~ & {
+//         fill: var(--accent-color);
+//         background-image: url(../images/icon\ check.svg);
+//     }
+// }
+
+// .modal-form-submit {
+//     align-self: center;
+//     padding-top: 10px;
+//     padding-bottom: 10px;
+//     padding-right: 52px;
+//     padding-left: 52px;
+//     font-weight: 700;
+//     font-size: 16px;
+//     line-height: 1.88;
+//     text-align: center;
+//     letter-spacing: 0.06em;
+//     color: var(--primary-text-color-dark-theme);
+
+//     background: var(--accent-color);
+//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+//     border: var(--accent-color);
+//     border-radius: 4px;
+
+//     transition: background-color var(--transition-dur-func);
+
+//     &:hover,
+//     &:focus {
+//         background: #188CE8;
+//     }
+// }
