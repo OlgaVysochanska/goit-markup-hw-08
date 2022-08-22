@@ -29,9 +29,9 @@
 
 .footer-logo {
     @media screen and (max-width: 767px) {
-          text-align: center;
-          display: block;
-        }
+        text-align: center;
+        display: block;
+    }
 }
 
 .address {
@@ -86,39 +86,35 @@
 .footer-info {
     @media screen and (max-width: 1199px) {
         display: flex;
-            flex-direction: column;
-            align-items: center;
+        flex-direction: column;
+        align-items: center;
         }
 }
 
 .address__list {
     @media screen and (max-width: 1199px) {
         display: flex;
-            flex-direction: column;
-            align-items: center;
+        flex-direction: column;
+        align-items: center;
         }
 }
 
 .subscribe {
-display: flex;
-flex-direction: column;
-    @media screen and (max-width: 1199px) {
-            align-items: center;
-            width: 100%;
-        }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 
-        @media screen and (min-width: 1200px) {
-            align-items: start;
-            width: 50%;
+
+    @media screen and (min-width: 1200px) {
+        align-items: start;
+        width: 50%;
         }
 }
 
 .subscribe-form {
     display: flex;
-
-    @media screen and (max-width: 480px) {
-        width: 100%;
-    }
+    width: 100%;
 
     @media screen  and (max-width: 1199px) {
         flex-direction: column;
@@ -126,13 +122,12 @@ flex-direction: column;
         gap: 20px;
         }
 
-        @media screen and (min-width: 480px) {
+        @media screen and (min-width: 480px) and (max-width: 1199px) {
         width: 450px;
         }
 
         @media screen and (min-width: 1200px) {
         gap: 12px;
-        width: 100%;
         }
 }
 

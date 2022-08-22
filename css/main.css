@@ -1105,12 +1105,8 @@ body {
 .subscribe {
   display: flex;
   flex-direction: column;
-}
-@media screen and (max-width: 1199px) {
-  .subscribe {
-    align-items: center;
-    width: 100%;
-  }
+  align-items: center;
+  width: 100%;
 }
 @media screen and (min-width: 1200px) {
   .subscribe {
@@ -1121,11 +1117,7 @@ body {
 
 .subscribe-form {
   display: flex;
-}
-@media screen and (max-width: 480px) {
-  .subscribe-form {
-    width: 100%;
-  }
+  width: 100%;
 }
 @media screen and (max-width: 1199px) {
   .subscribe-form {
@@ -1134,7 +1126,7 @@ body {
     gap: 20px;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 1199px) {
   .subscribe-form {
     width: 450px;
   }
@@ -1142,7 +1134,6 @@ body {
 @media screen and (min-width: 1200px) {
   .subscribe-form {
     gap: 12px;
-    width: 100%;
   }
 }
 
