@@ -24,6 +24,12 @@
           <li class="menu__item"><a class= "menu__link link" href="">Контакти</a></li>
         </ul>  
       </nav>
+
+      <button type="button" class="mobile-menu-open" data-menu-open>
+        <svg width="40" height="40" >
+          <use href="./images/symbol-defs.svg#icon-menu_40px" ></use>
+        </svg>
+      </button>
     
       <ul class="list contacts">
         <li class="contacts__item">
@@ -40,12 +46,40 @@
             +38 096 111 11 11</a>
         </li>
       </ul>
+
+      <div class="mobile-menu is-open" data-menu>
+        <button type="button" class="mobile-menu-close" data-menu-close>
+          <svg class="mobile-menu-close__icon" width="40" height="40">
+            <use href="./images/symbol-defs.svg#icon-close" ></use>
+          </svg>
+        </button>
+        <div>
+          <ul class="mobile-menu__nav list">
+            <li class="mobile-menu__item"><a class="mobile-menu__link mobile-menu__link-current link" href="">Студія</a></li>
+            <li class="mobile-menu__item"><a class="mobile-menu__link link" href="./portfolio.html">Портфоліо</a></li>
+            <li class="mobile-menu__item"><a class="mobile-menu__link link" href="">Контакти</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul class="mobile-menu-contacts list" >
+            <li><a class="mobile-menu__number link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li><a class="mobile-menu__mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          </ul>
+          <ul class="mobile-menu-socials list" >
+            <li class="mobile-menu-socials__item"><a href="" class="link">Instagram</a></li>
+            <li class="mobile-menu-socials__item"><a href="" class="link">Twitter</a></li>
+            <li class="mobile-menu-socials__item"><a href="" class="link">Facebook</a></li>
+            <li class="mobile-menu-socials__item"><a href="" class="link">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+
     </div>    
   </header>
 
   <main>
     <section class="hero">
-      <h1  class="main-title">Ефективні рішення для вашого бізнесу</h1>
+      <h1  class="main-title">Ефективні рішення для<br> вашого бізнесу</h1>
       <button class="custom-button button" type="button" data-modal-open>Замовити послугу</button>
     </section>
 
@@ -146,7 +180,7 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section activity-section">
       <div class="container">
         <h2 class="secondary-title">Чим ми займаємось</h2>
         <ul class="activity list">
@@ -194,7 +228,7 @@
               media="(max-width: 767px)"
               />
 
-              <img src="./images/team-1-mobile.jpg" alt="Фото продакт диизайнера" width="270" height="260">
+              <img src="./images/team-1-mobile.jpg" alt="Фото продакт диизайнера" width="100%" >
             </picture>
             
             <div class="team-cards__text">
@@ -239,7 +273,7 @@
               <source srcset="./images/team-2-tablet.jpg 1x, ./images/team-2-tablet@2x.jpg 2x" media="(min-width: 768px)" />
               <source srcset="./images/team-2-mobile.jpg 1x, ./images/team-2-mobile@2x.jpg 2x" media="(max-width: 767px)" />
             
-              <img src="./images/team-2-mobile.jpg" alt="Фото фронтенд розробниці" width="270" height="260">
+              <img src="./images/team-2-mobile.jpg" alt="Фото фронтенд розробниці" width="100%">
             </picture>
             <div class="team-cards__text">
               <h3 class="team-cards__title">Ольга Рєпіна</h3>
@@ -282,7 +316,7 @@
                 <source srcset="./images/team-3-tablet.jpg 1x, ./images/team-3-tablet@2x.jpg 2x" media="(min-width: 768px)" />
                 <source srcset="./images/team-3-mobile.jpg 1x, ./images/team-3-mobile@2x.jpg 2x" media="(max-width: 767px)" />
               
-                <img src="./images/team-3-mobile.jpg" alt="Фото маркетолога" width="270" height="260">
+                <img src="./images/team-3-mobile.jpg" alt="Фото маркетолога" width="100%">
               </picture>
             
             <div class="team-cards__text">
@@ -325,7 +359,7 @@
               <source srcset="./images/team-4-desc.jpg 1x, ./images/team-4-desc@2x.jpg 2x" media="(min-width: 1200px)" />
               <source srcset="./images/team-4-tablet.jpg 1x, ./images/team-4-tablet@2x.jpg 2x" media="(min-width: 768px)" />
               <source srcset="./images/team-4-mobile.jpg 1x, ./images/team-4-mobile@2x.jpg 2x" media="(max-width: 767px)" />
-            <img src="./images/team-4-mobile.jpg" alt="Фото дизайнера інтерфейсу" width="270" height="260">
+            <img src="./images/team-4-mobile.jpg" alt="Фото дизайнера інтерфейсу" width="100%">
             </picture>
             
             <div class="team-cards__text">
@@ -421,10 +455,10 @@
 
   <footer class="footer">
     <div class="container footer-container">
-      <div>
+      <div class="footer-info">
         <a class= "logo link footer__logo" href="">Web<span class="logo_theme_dark">Studio</span></a>
         <address class="address">
-          <ul class="list">
+          <ul class="list address__list">
             <li><a class= "link" href="https://goo.gl/maps/T1mjCNUZyiaDJwVu5" target="_blank" rel="noopener noreferrer">м.Київ, проспект Лесі Українки, 26   </a></li>
             <li><a class= "address__item link" href="mailto:info@devstudio.com">info@example.com</a></li>
             <li><a class= "address__item link" href="tel:+380961111111">+38 099 111 11 11</a></li>
@@ -479,5 +513,6 @@
   </footer>
 
   <script src="./js/modal.js"></script>
+  <script src="./js/mobile-menu.js"></script>
 </body>
 </html>

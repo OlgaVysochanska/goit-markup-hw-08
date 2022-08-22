@@ -1,21 +1,21 @@
-// .logo {
-//     margin-right: 93px;
-//     font-family: 'Raleway', sans-serif;
-//     @include font(700, 26px, 1.2);
-//     letter-spacing: 0.03em;
-//     color: var(--accent-color);
-// }
+.logo {
+    // margin-right: 93px;
+    font-family: 'Raleway', sans-serif;
+    @include font(700, 26px, 1.2);
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
 
-// .logo_theme_light {
-//     color: #000000;
-// }
+.logo_theme_light {
+    color: #000000;
+}
 
-// .footer__logo {
-//     display: block;
-//     margin-bottom: 20px;
-//     margin-right: 0;
-// }
+.footer__logo {
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
 
-// .logo_theme_dark {
-//     color: var(--primary-text-color-dark-theme);
-// }
+.logo_theme_dark {
+    color: var(--primary-text-color-dark-theme);
+}

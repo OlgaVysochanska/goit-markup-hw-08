@@ -15,31 +15,63 @@
 <body>
   <header class="header">
     <div class="container page-header-container">
-    <nav class="nav">
-      <a class="logo link" href="">Web<span class="logo_theme_light">Studio</span></a>
-      <ul class="menu list">
-        <li class="menu__item"><a class="menu__link link" href="./index.html">Студія</a></li>
-        <li class="menu__item"><a class="menu__link menu__link_current link" href="">Портфоліо</a></li>
-        <li class="menu__item"><a class="menu__link link" href="">Контакти</a></li>
+      <nav class="nav">
+        <a class="logo link" href="">Web<span class="logo_theme_light">Studio</span></a>
+        <ul class="menu list">
+          <li class="menu__item"><a class="menu__link link" href="./index.html">Студія</a></li>
+          <li class="menu__item"><a class="menu__link menu__link_current link" href="">Портфоліо</a></li>
+          <li class="menu__item"><a class="menu__link link" href="">Контакти</a></li>
+        </ul>
+      </nav>
+
+      <button type="button" class="mobile-menu-open" data-menu-open>
+        <svg width="40" height="40">
+          <use href="./images/symbol-defs.svg#icon-menu_40px"></use>
+        </svg>
+      </button>
+    
+      <ul class="list contacts">
+        <li class="contacts__item">
+          <a class="contacts__link link" href="mailto:info@devstudio.com">
+            <svg class="contacts__icon" width="16" height="12">
+              <use href="./images/symbol-defs.svg#icon-envelope"></use>
+            </svg>
+            info@devstudio.com</a>
+        </li>
+        <li class="contacts__item">
+          <a class="contacts__link link" href="tel:+380961111111">
+            <svg class="contacts__icon" width="10" height="16">
+              <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+            </svg>
+            +38 096 111 11 11</a>
+        </li>
       </ul>
-    </nav>
-  
-    <ul class="list contacts">
-      <li class="contacts__item">
-        <a class="contacts__link link" href="mailto:info@devstudio.com">
-          <svg class="contacts__icon" width="16" height="12">
-            <use href="./images/symbol-defs.svg#icon-envelope"></use>
+      <div class="mobile-menu is-open" data-menu>
+        <button type="button" class="mobile-menu-close" data-menu-close>
+          <svg class="mobile-menu-close__icon" width="40" height="40">
+            <use href="./images/symbol-defs.svg#icon-close"></use>
           </svg>
-          info@devstudio.com</a>
-      </li>
-      <li class="contacts__item">
-        <a class="contacts__link link" href="tel:+380961111111">
-          <svg class="contacts__icon" width="10" height="16">
-            <use href="./images/symbol-defs.svg#icon-smartphone"></use>
-          </svg>
-          +38 096 111 11 11</a>
-      </li>
-    </ul>
+        </button>
+        <div>
+          <ul class="mobile-menu__nav list">
+            <li class="mobile-menu__item"><a class="mobile-menu__link link" href="./index.html">Студія</a></li>
+            <li class="mobile-menu__item"><a class="mobile-menu__link mobile-menu__link-current link" href="">Портфоліо</a></li>
+            <li class="mobile-menu__item"><a class="mobile-menu__link link" href="">Контакти</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul class="mobile-menu-contacts list">
+            <li><a class="mobile-menu__number link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li><a class="mobile-menu__mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          </ul>
+          <ul class="mobile-menu-socials list">
+            <li class="mobile-menu-socials__item"><a href="" class="link">Instagram</a></li>
+            <li class="mobile-menu-socials__item"><a href="" class="link">Twitter</a></li>
+            <li class="mobile-menu-socials__item"><a href="" class="link">Facebook</a></li>
+            <li class="mobile-menu-socials__item"><a href="" class="link">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -302,6 +334,8 @@
     </div>
   </div>
 </footer>
+
+<script src="./js/mobile-menu.js"></script>
 
 </body>
 </html>
