@@ -920,7 +920,10 @@ body {
   gap: 30px;
 }
 
-@media screen and (max-width: 1199px) {
+.portfolio-item {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .portfolio-item {
     flex-basis: calc((100% - 30px) / 2);
   }
@@ -931,8 +934,13 @@ body {
   }
 }
 
+.portfolio-img {
+  max-width: 100%;
+}
+
 .portfolio-link {
   display: block;
+  min-width: 100%;
   transition: box-shadow var(--transition-dur-func);
 }
 .portfolio-link:hover, .portfolio-link:focus {
@@ -965,6 +973,7 @@ body {
 }
 
 .portfolio-thumb {
+  max-width: 100%;
   position: relative;
   overflow: hidden;
 }
