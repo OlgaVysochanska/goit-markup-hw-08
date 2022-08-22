@@ -42,9 +42,6 @@
 }
 
 .portfolio-list {
-  
-        
-    
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -53,9 +50,6 @@
 
 .portfolio-item {
     max-width: 100%;
-    // @media screen and (max-width: 480px) {
-    //     width: 100%;
-    //     }
 
     @media screen and (min-width: 768px) and (max-width: 1199px) {
     flex-basis: calc((100% - 30px) / 2);

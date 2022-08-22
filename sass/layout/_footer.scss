@@ -131,7 +131,7 @@ flex-direction: column;
         }
 
         @media screen and (min-width: 1200px) {
-        justify-content: end;
+        gap: 12px;
         width: 100%;
         }
 }
