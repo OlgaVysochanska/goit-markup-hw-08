@@ -17,6 +17,7 @@
 
     @media screen and (min-width: 768px) {
         flex-direction: row;
+        row-gap: 60px;
         flex-wrap: wrap;
         justify-content: space-around;
     }
@@ -83,7 +84,7 @@
 }
 
 .footer-info {
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 1199px) {
         display: flex;
             flex-direction: column;
             align-items: center;
@@ -91,7 +92,7 @@
 }
 
 .address__list {
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 1199px) {
         display: flex;
             flex-direction: column;
             align-items: center;

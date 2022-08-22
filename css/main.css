@@ -1005,6 +1005,7 @@ body {
 @media screen and (min-width: 768px) {
   .footer-container {
     flex-direction: row;
+    row-gap: 60px;
     flex-wrap: wrap;
     justify-content: space-around;
   }
@@ -1066,7 +1067,7 @@ body {
   fill: var(--primary-text-color-dark-theme);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .footer-info {
     display: flex;
     flex-direction: column;
@@ -1074,7 +1075,7 @@ body {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .address__list {
     display: flex;
     flex-direction: column;
