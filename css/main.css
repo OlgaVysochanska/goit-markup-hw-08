@@ -810,6 +810,10 @@ body {
   color: var(--secondary-text-color);
 }
 
+.empl-photo {
+  width: 100%;
+}
+
 .clients {
   display: flex;
   justify-content: center;
