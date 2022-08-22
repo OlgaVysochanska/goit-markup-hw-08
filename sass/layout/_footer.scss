@@ -66,6 +66,10 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-text-color-dark-theme);
+
+    @media screen and (min-width: 1200px) {
+        text-align: left;
+    }
 }
 
 .footer .social-list-item-link {

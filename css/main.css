@@ -1090,6 +1090,11 @@ body {
   text-transform: uppercase;
   color: var(--primary-text-color-dark-theme);
 }
+@media screen and (min-width: 1200px) {
+  .footer-title {
+    text-align: left;
+  }
+}
 
 .footer .social-list-item-link {
   background-color: rgba(255, 255, 255, 0.1);
