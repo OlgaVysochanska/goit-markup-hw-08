@@ -2,8 +2,8 @@
     display: flex;
     justify-content: start;
     flex-wrap: wrap;
-    align-content: space-between;
-    column-gap: 15px;
+    row-gap: 15px;
+    column-gap: 8px;
     margin-bottom: 50px;
 }
 
@@ -32,11 +32,6 @@
     }
 }
 
-.filter:not(:last-child) {
-    margin-right: 8px;
-    margin-bottom: 15px;
-}
-
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
@@ -45,7 +40,7 @@
 
 .portfolio-item {
     @media screen and (min-width: 768px) {
-    flex-basis: calc((100% - 30px) / 2);
+    flex-basis: calc((100% - 50px) / 2);
     }
 
     @media screen and (min-width: 1200px) {
