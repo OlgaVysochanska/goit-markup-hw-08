@@ -26,6 +26,10 @@
 
 .advantages__title {
     margin-bottom: 10px;
+
+    @media screen and (max-width: 767px) {
+        text-align: center;
+    }
 }
 
 .advantages__description {

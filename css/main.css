@@ -129,6 +129,14 @@ body {
   visibility: hidden;
 }
 
+.uppercase {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 .secondary-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -712,6 +720,11 @@ body {
 
 .advantages__title {
   margin-bottom: 10px;
+}
+@media screen and (max-width: 767px) {
+  .advantages__title {
+    text-align: center;
+  }
 }
 
 .advantages__description {
