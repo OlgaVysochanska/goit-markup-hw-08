@@ -693,6 +693,12 @@ body {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .section.advantage-section {
+    padding-bottom: 0;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .advantages__item {
     flex-basis: calc((100% - 30px) / 2);
